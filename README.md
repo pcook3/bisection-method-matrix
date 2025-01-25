@@ -27,3 +27,6 @@ G(x):	                    2/x        x^2 + x -2      (x+2)/(x+1)
 G’(x):	                  -2/x^2	   2x+1	           -1/(x+1)^2
 G’(sqrt(2)):	            -1	       3.828	         -0.1716
 -1 < G’(sqrt(2)) < 1:	    No	       No	             Yes
+
+
+4.) After analytically and graphically proving that there is only one positive root in the interval (0,1) of the function f(x) = ln^2(x) - x - 1, I used a python program that utilizes Newton's Method to find the largest possible b, such that b <= 1, that converged to the positive root a. I found that b = 0.66, with a solution of a = 0.31735.
